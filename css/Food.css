@@ -190,11 +190,16 @@ nav a :visited
       font-size: 55px;
       
   }
+  #Home p{
+      font-size: 20px;
+      font-weight: 300;
+      color:white ;
+  }
   .hero-button{
       display: inline-block;
       text-decoration: none;
       text-transform: uppercase;
-      padding: 13px 20px;
+      padding: 17px 26px;
       border-radius: 200px;
       font-weight: bold;
       background: orange;
@@ -278,7 +283,7 @@ nav a :visited
 /*=====Menu Section======*/
 .menu-image{
     min-height: 80vh;
-    background: url(css/img/menu.jpg) center/cover fixed no-repeat;
+    background: url(/EATWELL-SITE/css/img/menu.jpg) center/cover fixed no-repeat;
 }
 .menu-text{
     min-height: 80vh;
@@ -389,7 +394,7 @@ nav a :visited
 .number{
     text-align: center;
     background:linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.4)),
-     url('css/img/ali-tarhini-V0WOAYD183M-unsplash.jpg') center/cover fixed no-repeat;
+     url('/EATWELL-SITE/css/img/ali-tarhini-V0WOAYD183M-unsplash.jpg') center/cover fixed no-repeat;
     padding: 60px 0;
     color:#fff;
  }
@@ -583,7 +588,7 @@ nav a :visited
 #client-section::before{
  content: "";
  position: absolute;
- background: url('css/img/partners.jpg')center/cover fixed no-repeat;
+ background: url('/EATWELL-SITE/css/img/partners.jpg')center/cover fixed no-repeat;
  width: 100%;
  height: 100%;
  z-index: -1;
@@ -620,7 +625,7 @@ nav a :visited
     height: 100%;
     z-index: -1;
     opacity: 0.7;
-    background: url('css/img/contact-details-3381225_1280.jpg') no-repeat center center/cover;
+    background: url('/EATWELL-SITE/css/img/contact-details-3381225_1280.jpg') no-repeat center center/cover;
 
 
 }
